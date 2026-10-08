@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <main class="login-box">
+        <h1>Kepegawaian FKG</h1>
+        <p class="subtitle"> login dengan NIP</p>
+
+        <form id="formLogin" novalidate>
+                <label for="username">Username</label>
+            <input type="text" id="username" name="username" autocomplete="username" placeholder="Masukkan username" required>
+ 
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Masukkan password" required>
+ 
+            <label class="show-pass">
+                <input type="checkbox" id="tampilPassword">
+                Tampilkan password
+            </label>
+ 
+            <button type="submit">Masuk</button>
+            <p class="pesan" id="pesan" role="alert"></p>
+        </form>
+    </main>
+</body>
+</html>
